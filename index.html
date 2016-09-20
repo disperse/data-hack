@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Datahack @ Yale 2016">
+        <meta name="author" content="Mark McKnight">
+        <title>Datahack @ Yale</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body data-spy="scroll" data-offset="48">
+        <nav class="navbar navbar-default navbar-fixed-top dh-nav-top" role="navigation">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="#">Datahack @ Yale</a>
+        	</div>
+
+        	<!-- Collect the nav links, forms, and other content for toggling -->
+        	<div class="collapse navbar-collapse navbar-ex1-collapse">
+        		<ul class="nav navbar-nav">
+        			<li><a href="#about">About</a></li>
+        			<li><a href="#resources">Resources</a></li>
+                    <li><a href="#who">Who</a></li>
+                    <li><a href="#sponsor">Sponsor</a></li>
+                    <li><a href="#contact">Contact</a></li>
+        		</ul>
+        	</div><!-- /.navbar-collapse -->
+        </nav>
+
+        <div class="jumbotron dh-top-div" id="about">
+            <div class="container">
+                <h2>About the Datahack</h2>
+                <p>The primary function of this event is to bring together junior scholars from all levels
+                    (undergraduate, graduate, and postdoctoral) who are interested in network science, know
+                    the tools and methods, and want to solve problems and produce useful insights in a highly
+                    collaborative and dynamic environment.</p>
+
+                <p>Network science is the study of the structure and function of graphs, networks, and other
+                    relational data. It involves the collection, management, analysis, interpretation, and
+                    presentation of network data. The field of network science aims to develop new tools and
+                    techniques to answer questions about interconnected data. Network data poses unique
+                    analytic challenges, and network scientists leverage many data analysis methods to
+                    answer questions about the interconnected world.  The purpose of the datahack is to
+                    identify the superstars who have mastered those methods. Students in the fields of
+                    network science, data science, and statistics at Yale are expected to have a strong
+                    understanding of computational optimization and algorithm design. We want to invite them
+                    (and others) to use these skills on new, real-world problems in need of real solutions.</p>
+            </div>
+        </div>
+        <div class="dh-interstitial dh-graph-1"></div>
+        <div class="jumbotron" id="resources">
+            <div class="container">
+                <h2>Resources</h2>
+                <p>Network Science Research at Yale includes:</p>
+                <h3>Technological networks</h3>
+                <ul class="dh-list">
+                    <li>Designing and improving communication protocols and networks, both wired and wireless</li>
+                    <li>The optimization of emerging network architectures including heterogeneous wireless networks, caching networks, and software defined networks</li>
+                    <li>The development of algorithms for predicting the performance of networks</li>
+                    <li>The design of fast algorithms for analyzing large network data sets</li>
+                </ul>
+                <h3>Social and biological networks</h3>
+                <ul class="dh-list">
+                    <li>The social and mathematical rules governing how social networks form (“connection”)</li>
+                    <li>The implications of how networks influence thoughts, feelings, and behaviors (“contagion”)</li>
+                    <li>Social network implications for health, crime, and pro-social behavior</li>
+                    <li>The modeling and analysis of intracellular processes by regulatory networks</li>
+                    <li>Neural networks</li>
+                </ul>
+                <h3>Theoretical advances in network science</h3>
+                <ul class="dh-list">
+                    <li>Machine learning</li>
+                    <li>Deep networks</li>
+                    <li>Bayesian network analysis</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dh-interstitial"></div>
+        <div class="jumbotron" id="who">
+            <div class="container">
+                <h2>Who will be there?</h2>
+                <p>Our faculty are designing a screening procedure to identify participants with the
+                    necessary skills in network and data science, and we expect a minimum of 50
+                    participants from Yale and beyond.</p>
+                <p>This event is structured around network science to focus on practical applications in
+                    our field. To be successful, we need problems, data sets, and sponsorship. Why
+                    should you participate? Access to talent. Our datahack will bring together trained
+                    undergraduate, graduate, and post-doctoral students with backgrounds and skills in
+                    network science and data science, all together in one room. With problems provided by
+                    our sponsors, we plan to assemble 3-4 use cases in 3-4 industries as our event
+                    challenge.</p>
+            </div>
+        </div>
+        <div class="dh-interstitial"></div>
+        <div class="jumbotron" id="sponsor">
+        	<div class="container">
+        		<h2>Sponsor the Datahack</h2>
+        		<h3>What We Need from Sponsoring Corporations</h3>
+                <ol class="dh-list">
+                    <li>Network Science datahack projects and problems: please join the discussion. What problems does your organization face? Be as specific as you wish. These are project topics on which participants will be judged for their creativity and utility within the field, and we are looking for projects that are of interest to both you and participants.</li>
+                    <li>Prizes and an opportunity to judge participants: for topics you have selected, we would like your organization to judge the entries. You pick the prizes. The title sponsor will be on the grand prize judging panel.</li>
+                    <li>Support to run the event: we need your support to cover expenses including caffeine, catering, staffing and venue! Also, an official ‘Network Science Datahack’ T-shirt and other small items for gift bags.</li>
+                </ol>
+        	</div>
+        </div>
+        <div class="dh-interstitial"></div>
+        <div class="jumbotron dh-contact-div" id="contact">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>For more information, please contact us at <a href="mailto:datahack@yale.edu">datahack@yale.edu</a></p>
+            </div>
+        </div>
+
+        <div class="dh-graph"></div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/geometric-random.js"></script>
+        <script src="js/geometric-random-2.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
