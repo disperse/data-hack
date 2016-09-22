@@ -11,9 +11,9 @@
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="less/style.css" rel="stylesheet">
 
-        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -21,7 +21,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body data-spy="scroll" data-offset="48">
+    <body data-spy="scroll" data-offset="48" id="datahack">
         <nav class="navbar navbar-default navbar-fixed-top dh-nav-top" role="navigation">
         	<!-- Brand and toggle get grouped for better mobile display -->
         	<div class="navbar-header">
@@ -38,9 +38,9 @@
         	<div class="collapse navbar-collapse navbar-ex1-collapse">
         		<ul class="nav navbar-nav">
         			<li><a href="#about">About</a></li>
+                    <li><a href="#participants">Participants</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
         			<li><a href="#resources">Resources</a></li>
-                    <li><a href="#who">Who</a></li>
-                    <li><a href="#sponsor">Sponsor</a></li>
                     <li><a href="#contact">Contact</a></li>
         		</ul>
         	</div><!-- /.navbar-collapse -->
@@ -48,6 +48,7 @@
 
         <div class="jumbotron dh-top-div" id="about">
             <div class="container">
+                <img src="images/yins_logo_300x300.png" class="pull-left gap-right img-responsive" style="max-width: 300px;">
                 <h2>About the Datahack</h2>
                 <p>The primary function of this event is to bring together junior scholars from all levels
                     (undergraduate, graduate, and postdoctoral) who are interested in network science, know
@@ -66,9 +67,47 @@
                     (and others) to use these skills on new, real-world problems in need of real solutions.</p>
             </div>
         </div>
+
         <div class="dh-interstitial dh-graph-1"></div>
+
+        <div class="jumbotron" id="participants">
+            <div class="container">
+                <div id="vis-one"></div>
+                <h2>Who will be there?</h2>
+                <p>Our faculty are designing a screening procedure to identify participants with the
+                    necessary skills in network and data science, and we expect a minimum of 50
+                    participants from Yale and beyond.</p>
+                <p>This event is structured around network science to focus on practical applications in
+                    our field. To be successful, we need problems, data sets, and sponsorship. Why
+                    should you participate? Access to talent. Our datahack will bring together trained
+                    undergraduate, graduate, and post-doctoral students with backgrounds and skills in
+                    network science and data science, all together in one room. With problems provided by
+                    our sponsors, we plan to assemble 3-4 use cases in 3-4 industries as our event
+                    challenge.</p>
+            </div>
+        </div>
+
+        <div class="dh-interstitial"></div>
+
+        <div class="jumbotron" id="sponsors">
+            <div class="container">
+                <h2>Sponsor the Datahack</h2>
+                <h3>What We Need from Sponsoring Corporations</h3>
+                <ol class="dh-list">
+                    <li>Network Science datahack projects and problems: please join the discussion. What problems does your organization face? Be as specific as you wish. These are project topics on which participants will be judged for their creativity and utility within the field, and we are looking for projects that are of interest to both you and participants.</li>
+                    <li>Prizes and an opportunity to judge participants: for topics you have selected, we would like your organization to judge the entries. You pick the prizes. The title sponsor will be on the grand prize judging panel.</li>
+                    <li>Support to run the event: we need your support to cover expenses including caffeine, catering, staffing and venue! Also, an official ‘Network Science Datahack’ T-shirt and other small items for gift bags.</li>
+                </ol>
+            </div>
+            <div class="container-fluid" id="vis-two">
+            </div>
+        </div>
+
+        <div class="dh-interstitial"></div>
+
         <div class="jumbotron" id="resources">
             <div class="container">
+                <div id="vis-three"></div>
                 <h2>Resources</h2>
                 <p>Network Science Research at Yale includes:</p>
                 <h3>Technological networks</h3>
@@ -94,38 +133,13 @@
                 </ul>
             </div>
         </div>
+
+
         <div class="dh-interstitial"></div>
-        <div class="jumbotron" id="who">
-            <div class="container">
-                <h2>Who will be there?</h2>
-                <p>Our faculty are designing a screening procedure to identify participants with the
-                    necessary skills in network and data science, and we expect a minimum of 50
-                    participants from Yale and beyond.</p>
-                <p>This event is structured around network science to focus on practical applications in
-                    our field. To be successful, we need problems, data sets, and sponsorship. Why
-                    should you participate? Access to talent. Our datahack will bring together trained
-                    undergraduate, graduate, and post-doctoral students with backgrounds and skills in
-                    network science and data science, all together in one room. With problems provided by
-                    our sponsors, we plan to assemble 3-4 use cases in 3-4 industries as our event
-                    challenge.</p>
-            </div>
-        </div>
-        <div class="dh-interstitial"></div>
-        <div class="jumbotron" id="sponsor">
-        	<div class="container">
-        		<h2>Sponsor the Datahack</h2>
-        		<h3>What We Need from Sponsoring Corporations</h3>
-                <ol class="dh-list">
-                    <li>Network Science datahack projects and problems: please join the discussion. What problems does your organization face? Be as specific as you wish. These are project topics on which participants will be judged for their creativity and utility within the field, and we are looking for projects that are of interest to both you and participants.</li>
-                    <li>Prizes and an opportunity to judge participants: for topics you have selected, we would like your organization to judge the entries. You pick the prizes. The title sponsor will be on the grand prize judging panel.</li>
-                    <li>Support to run the event: we need your support to cover expenses including caffeine, catering, staffing and venue! Also, an official ‘Network Science Datahack’ T-shirt and other small items for gift bags.</li>
-                </ol>
-        	</div>
-        </div>
-        <div class="dh-interstitial"></div>
+
         <div class="jumbotron dh-contact-div" id="contact">
             <div class="container">
-                <h3>Contact Us</h3>
+                <h2>Contact Us</h2>
                 <p>For more information, please contact us at <a href="mailto:datahack@yale.edu">datahack@yale.edu</a></p>
             </div>
         </div>
@@ -139,5 +153,8 @@
         <script src="js/geometric-random.js"></script>
         <script src="js/geometric-random-2.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/vis-one.js"></script>
+        <script src="js/vis-two.js"></script>
+        <script src="js/vis-three.js"></script>
     </body>
 </html>

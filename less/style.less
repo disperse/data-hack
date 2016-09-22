@@ -1,0 +1,171 @@
+@color1: #ffffff;
+@color2: #f4921e;
+@color3: #858585;
+@color4: #c5d2db;
+@color5: #3e6b85;
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+#dh-yins-logo {
+  float: left;
+  width: 33%;
+  background-image: url(../images/yins_logo_600x600.png);
+  /*position: absolute;
+  top: 0;
+  left: 50%;
+  shape-outside: polygon(0 0, 100% 0, 70% 70%, 100% 100%, 0 100%);*/
+}
+
+.dh-interstitial {
+  height: 40%;
+  background: none;
+}
+
+.dh-contact-div {
+  margin-bottom: 0;
+}
+
+.dh-list li {
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.dh-top-div {
+  padding-top: 96px;
+}
+
+.dh-graph {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+*/
+
+.node-vis-0 {
+  fill: @color4;
+  stroke: @color5;
+  stroke-width: 2px;
+}
+
+.link-vis-0 {
+  stroke: @color4;
+}
+
+/*
+.node {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*/
+
+.node--source {
+  fill: @color2 !important;
+}
+
+.node--target {
+  fill: @color2 !important;
+}
+
+.link--source,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: @color2 !important;
+}
+
+.link--target {
+  stroke: @color2 !important;
+}
+
+.link {
+  stroke: @color5;
+  stroke-opacity: .4;
+  fill: none;
+}
+
+text {
+  color: @color5;
+}
+
+#vis-one {
+  float: right;
+}
+
+#vis-two {
+  padding: 0;
+}
+
+#vis-three {
+  float:left;
+}
+
+body {
+  background-color: @color5;
+}
+
+/*
+#datahack g.links > line {
+  stroke: @color4;
+}
+
+#datahack g.nodes > circle {
+  fill: @color4;
+  stroke-width: 2px;
+  stroke: @color5;
+}
+*/
+
+#datahack .navbar-default .navbar-nav > .active > a {
+  background-color: @color2;
+  color: @color1;
+}
+
+#datahack a {
+  color: @color2;
+}
+
+#datahack .navbar .navbar-nav > li > a {
+  color: @color1;
+}
+
+#datahack .navbar-default {
+  background-color: @color5;
+  border-color: @color3;
+  color: @color1;
+}
+
+#datahack .navbar-brand, #datahack .navbar-text {
+  color: @color1;
+}
+
+#datahack .jumbotron {
+  background-color: @color4;
+}
+
+#datahack h3, #datahack h2 {
+  color: @color5;
+}
+
+
+
