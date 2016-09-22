@@ -1,6 +1,4 @@
 function visBackground() {
-//var links = geometricRandom2.links;
-//var nodes = geometricRandom2.nodes;
   var links = [];
   var nodes = [];
 

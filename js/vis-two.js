@@ -56,8 +56,6 @@ function visTwo() {
   var visTwoTimer = window.setInterval(function () {
     d3.selectAll("path.vis-two")
       .data(function () {
-        //var d = layers1;
-        //layers1 = layers0;
         var newLayer = stack(d3.range(n).map(function () {
           return bumpLayer(m);
         }));

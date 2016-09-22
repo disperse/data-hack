@@ -2,3 +2,4 @@ Date        Hours   Activity
 9-19-2016   3       Initial layout and content of page
 9-20-2016   2       Played around with animated logo
 9-21-2016   3       Set up initial color palette using less, added data visualizations to page
+9-22-2016   3       Finished data visualizations, added and animated logo

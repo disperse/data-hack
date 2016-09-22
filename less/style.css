@@ -5,15 +5,6 @@ html {
   margin: 0;
   position: relative;
 }
-#dh-yins-logo {
-  float: left;
-  width: 33%;
-  background-image: url(../images/yins_logo_600x600.png);
-  /*position: absolute;
-  top: 0;
-  left: 50%;
-  shape-outside: polygon(0 0, 100% 0, 70% 70%, 100% 100%, 0 100%);*/
-}
 .dh-interstitial {
   height: 40%;
   background: none;
@@ -36,17 +27,7 @@ html {
   right: 0;
   z-index: -1;
 }
-/*
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
-
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-*/
+/* Styles for background graph */
 .node-vis-0 {
   fill: #c5d2db;
   stroke: #3e6b85;
@@ -55,11 +36,7 @@ html {
 .link-vis-0 {
   stroke: #c5d2db;
 }
-/*
-.node {
-  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-*/
+/* styles for visualization two */
 .node--source {
   fill: #f4921e !important;
 }
@@ -103,17 +80,6 @@ text {
 body {
   background-color: #3e6b85;
 }
-/*
-#datahack g.links > line {
-  stroke: @color4;
-}
-
-#datahack g.nodes > circle {
-  fill: @color4;
-  stroke-width: 2px;
-  stroke: @color5;
-}
-*/
 #datahack .navbar-default .navbar-nav > .active > a {
   background-color: #f4921e;
   color: #ffffff;
