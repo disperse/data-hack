@@ -85,10 +85,16 @@ html {
 text {
   color: #3e6b85;
 }
+#vis-logo {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
 #vis-one {
   float: right;
 }
 #vis-two {
+  height: 150px;
   padding: 0;
 }
 #vis-three {
