@@ -40,7 +40,7 @@ function visTwo() {
 
   var svg = d3.select("#vis-two").append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", (height + 50));
 
   var randomLayer = Math.floor(Math.random() * (n + 1));
 

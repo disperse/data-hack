@@ -9,6 +9,9 @@ body, html {
   padding: 0;
   margin: 0;
   position: relative;
+  font-family: Avenir,Helvetica,Lucida Grande,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .dh-interstitial {
@@ -23,6 +26,10 @@ body, html {
 .dh-list li {
   font-size: 21px;
   font-weight: 200;
+}
+
+ul > li {
+  list-style-type: circle;
 }
 
 .dh-top-div {
@@ -83,13 +90,13 @@ text {
 }
 
 #vis-logo {
-  width: 300px;
-  height: 300px;
-  float: left;
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 
 #vis-one {
-  float: right;
+  float: left;
 }
 
 #vis-two {
@@ -98,7 +105,7 @@ text {
 }
 
 #vis-three {
-  float:left;
+  float:right;
 }
 
 body {
@@ -129,9 +136,13 @@ body {
 }
 
 #datahack .jumbotron {
-  background-color: @color4;
+  background-color: fade(@color4,90%);
 }
 
 #datahack h3, #datahack h2 {
+  color: @color5;
+}
+
+li::marker {
   color: @color5;
 }

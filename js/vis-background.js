@@ -32,6 +32,8 @@ function visBackground() {
     .attr("width", width)
     .attr("height", (height * 2));
 
+  var g = svg.append("svg:g");
+
   var force = d3.layout.force()
     .nodes(nodes)
     .links(links)
@@ -40,12 +42,12 @@ function visBackground() {
     .on("tick", tick)
     .start();
 
-  var link = svg.selectAll(".link")
+  var link = g.selectAll(".link")
     .data(links)
     .enter().append("line")
     .attr("class", "link-vis-0");
 
-  var node = svg.selectAll(".node")
+  var node = g.selectAll(".node")
     .data(nodes)
     .enter().append("circle")
     .attr("class", "node-vis-0")
@@ -72,4 +74,10 @@ function visBackground() {
         return d.y;
       });
   }
+
+  var angle = 0;
+  var backgroundTimer = window.setInterval(function () {
+    angle = (angle + 1) % 36000;
+    g.attr("transform", "translate(" + width/2 + " " + height/2 + ") rotate("+(angle/100)+")");
+  }, 10);
 }

@@ -4,6 +4,9 @@ html {
   padding: 0;
   margin: 0;
   position: relative;
+  font-family: Avenir, Helvetica, Lucida Grande, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 .dh-interstitial {
   height: 40%;
@@ -15,6 +18,9 @@ html {
 .dh-list li {
   font-size: 21px;
   font-weight: 200;
+}
+ul > li {
+  list-style-type: circle;
 }
 .dh-top-div {
   padding-top: 96px;
@@ -63,19 +69,19 @@ text {
   color: #3e6b85;
 }
 #vis-logo {
-  width: 300px;
-  height: 300px;
-  float: left;
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 #vis-one {
-  float: right;
+  float: left;
 }
 #vis-two {
   height: 150px;
   padding: 0;
 }
 #vis-three {
-  float: left;
+  float: right;
 }
 body {
   background-color: #3e6b85;
@@ -100,9 +106,12 @@ body {
   color: #ffffff;
 }
 #datahack .jumbotron {
-  background-color: #c5d2db;
+  background-color: rgba(197, 210, 219, 0.9);
 }
 #datahack h3,
 #datahack h2 {
+  color: #3e6b85;
+}
+li::marker {
   color: #3e6b85;
 }
