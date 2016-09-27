@@ -3,3 +3,5 @@ Date        Hours   Activity
 9-20-2016   2       Played around with animated logo
 9-21-2016   3       Set up initial color palette using less, added data visualizations to page
 9-22-2016   3       Finished data visualizations, added and animated logo
+-----------------------------------------------------------------------------<--Sent 9-22-2016
+9-26-2016   1       Set up new site on site5.com with temporary URL

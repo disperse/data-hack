@@ -1,0 +1,6 @@
+Optimize for desktop
+Optimize for mobile
+Add hosted by section in Contact
+Upload to Site5
+http://devpost.com/hackathons or https://www.eventbrite.com/
+(When we get sponsors: add sponsors logos)
