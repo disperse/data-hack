@@ -22,10 +22,21 @@ $( window ).load(function() {
     }
   });
 
+  // Extend setInterval to allow for immediate execution
+  var originalSetInterval = window.setInterval;
+
+  window.setInterval = function(fn, delay, runImmediately) {
+    if(runImmediately) fn();
+    return originalSetInterval(fn, delay);
+  };
+
   // Start visualizations
   visLogo(); // ~2.5%
   visOne(); // ~65%
   visTwo(); // ~85%
   visThree(); // ~89%
-  visBackground(); // ~167%
+  //visBackground(); // ~167%
+
+  // Force appear events on page load
+  $.force_appear();
 });

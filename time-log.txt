@@ -5,3 +5,4 @@ Date        Hours   Activity
 9-22-2016   3       Finished data visualizations, added and animated logo
 -----------------------------------------------------------------------------<--Sent 9-22-2016
 9-26-2016   1       Set up new site on site5.com with temporary URL
+9-27-2016   1       Optimized background animation by making it a static image that rotates
