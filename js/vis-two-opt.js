@@ -9,8 +9,9 @@ function visTwo() {
       return bumpLayer(m);
     }));
 
-  var width = $("#vis-two").width(),
-    height = 150;
+  var width = $("#vis-two").width();
+  var height = 150;
+  $("#vis-two").height(height + 10);
 
   var x = d3.scale.linear()
     .domain([0, m - 1])
@@ -40,9 +41,10 @@ function visTwo() {
 
   var svg = d3.select("#vis-two").append("svg")
     .attr("width", width)
-    .attr("height", (height + 50));
+    .attr("height", (height + 50))
+    .attr("opacity", "0.7");
 
-  var randomLayer = Math.floor(Math.random() * (n + 1));
+  var randomLayer = Math.floor(Math.random() * n);
 
   svg.selectAll("path")
     .data(layers0)

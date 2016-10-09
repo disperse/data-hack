@@ -3,7 +3,12 @@ Date        Hours   Activity
 9-20-2016   2       Played around with animated logo
 9-21-2016   3       Set up initial color palette using less, added data visualizations to page
 9-22-2016   3       Finished data visualizations, added and animated logo
------------------------------------------------------------------------------<--Sent 9-22-2016
+-----------------------------------------------------------------------------<--Sent 2016-09-22
 9-26-2016   1       Set up new site on site5.com with temporary URL
 9-27-2016   1       Optimized background animation by making it a static image that rotates
 9-27-2016   2       Turn off visualizations when they are out of view
+-----------------------------------------------------------------------------<--Paid 2016-10-31
+9-27-2016   1       Created and added hosted by image
+10-08-2016  2       Added FAQ section and start to landing page,
+                    reformatted About and Resources into two columns,
+                    made Hosted By section look better and changed text

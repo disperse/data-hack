@@ -7,6 +7,7 @@ function visThree() {
     .attr("width", width)
     .attr("height", height)
     .append("g")
+    .attr("opacity", "0.7")
     .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
 
   var partition = d3.layout.partition()

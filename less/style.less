@@ -23,9 +23,22 @@ body, html {
   margin-bottom: 0;
 }
 
-.dh-list li {
+.dh-list li, .dh-list dd {
   font-size: 21px;
   font-weight: 200;
+}
+
+.dh-list dt {
+  font-weight: 500;
+  margin-top: 1em;
+  font-size: 21px;
+  color: @color5;
+}
+
+#datahack label {
+  font-size: 21px;
+  font-weight: 500;
+  color: @color5;
 }
 
 ul > li {
@@ -105,6 +118,8 @@ text {
 
 #vis-one {
   float: left;
+  margin-right: 3em;
+  margin-bottom: 3em;
 }
 
 #vis-two {
@@ -113,7 +128,6 @@ text {
 }
 
 #vis-three {
-  float:right;
 }
 
 body {
@@ -147,10 +161,43 @@ body {
   background-color: fade(@color4,90%);
 }
 
-#datahack h3, #datahack h2 {
+#datahack h1, #datahack h2, #datahack h3 {
   color: @color5;
+}
+
+#datahack h1 > small {
+  color: @color2;
 }
 
 li::marker {
   color: @color5;
+}
+
+#datahack .dh-yale {
+  font-family: YaleNew, yale, TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: @color5;
+}
+
+#datahack a.dh-yale {
+  color: @color5;
+}
+
+#datahack .btn-default {
+  color: @color2;
+  background-color: @color5;
+  border-color: @color3;
+}
+
+#datahack input {
+  color: @color5;
+  background-color: @color4;
+  border-color: @color3;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+#datahack .col-md-6 {
+  padding-left: 0;
 }

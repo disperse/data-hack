@@ -31,26 +31,94 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Datahack @ Yale</a>
+        <!--a class="navbar-brand" href="#">Datahack @ Yale</a-->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
+            <li><a href="#landing">Datahack @ Yale</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#participants">Participants</a></li>
+            <li><a href="#participants">Participate</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="#resources">Resources</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <!-- /.navbar-collapse -->
 </nav>
 
+<div class="jumbotron" id="landing">
+    <div class="container">
+        <h1 class="text-center">Datahack @ Yale
+            <small>February 18, 2017</small>
+        </h1>
+
+        <div class="row">
+            <div id="participant-div" class="col-md-6">
+                <h3>Participate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                <p>Sign up for more information about the Datahack as it becomes available:</p>
+                <form class="row">
+                    <div class="form-group col-md-9">
+                        <label class="sr-only" for="dh-email">Email</label>
+                        <input type="email" class="form-control" id="dh-email" placeholder="Enter your email">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-default">Sign Up</button>
+                    </div>
+                </form>
+                <p>
+                    <a href="#participants">More Information</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div id="vis-four"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="vis-five"></div>
+            </div>
+            <div id="sponsor-div" class="col-md-6">
+                <h3>Sponsor</h3>
+                <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.</p>
+                <p>For information about sponsoring the Datahack, please contact us at <a
+                        href="mailto:datahack@yale.edu?subject=Sponsoring the Datahack @ Yale&body=I am interested in sponsoring the Datahack event.">datahack@yale.edu</a>
+                </p>
+                <p>
+                    <a href="#sponsors">More Information</a>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="dh-interstitial"></div>
+
 <div class="jumbotron dh-top-div" id="about">
     <div class="container">
-        <div id="vis-logo">
-            <svg id="svg-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+        <h2>About the Datahack</h2>
+        <div class="col-md-6">
+            <p>The primary function of this event is to bring together junior scholars from all levels
+                (undergraduate, graduate, and postdoctoral) who are interested in network science, know
+                the tools and methods, and want to solve problems and produce useful insights in a highly
+                collaborative and dynamic environment.</p>
+
+            <p>Network science is the study of the structure and function of graphs, networks, and other
+                network data. It involves the collection, management, analysis, interpretation, and
+                presentation of network data. The field of network science aims to develop new tools and
+                techniques to answer questions about interconnected data. Network data poses unique
+                analytic challenges, and network scientists leverage many data analysis methods to
+                answer questions about the interconnected world.</p>
+        </div>
+
+        <div class="col-md-6">
+            <div id="vis-logo">
+                <svg id="svg-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="266 223 216 215" enable-background="new 266 223 216 215" xml:space="preserve">
 <g>
 	<path fill="#3e6b85" d="M422.8,427.7c-10.9,2-23.4,3.4-34.6,1.1c-7.7-1.4-14.8-4.6-20.2-10.5c-8-8.9-10.7-21.8-12.1-33.2
@@ -151,24 +219,14 @@
 	<path fill="#3e6b85" d="M368.6,424.7c1.6,0,3,1.4,3,3c0,1.6-1.4,3-3,3c-1.6,0-3-1.4-3-3C365.6,426.1,367,424.7,368.6,424.7"/>
 </g>
 </svg>
+            </div>
+            <p>The purpose of the datahack is to
+                identify the superstars who have mastered those methods. Students in the fields of
+                network science, data science, and statistics at Yale are expected to have a strong
+                understanding of computational optimization and algorithm design. We want to invite them
+                (and others) to use these skills on new, real-world problems in need of real solutions.</p>
+
         </div>
-        <h2>About the Datahack</h2>
-
-        <p>The primary function of this event is to bring together junior scholars from all levels
-            (undergraduate, graduate, and postdoctoral) who are interested in network science, know
-            the tools and methods, and want to solve problems and produce useful insights in a highly
-            collaborative and dynamic environment.</p>
-
-        <p>Network science is the study of the structure and function of graphs, networks, and other
-            relational data. It involves the collection, management, analysis, interpretation, and
-            presentation of network data. The field of network science aims to develop new tools and
-            techniques to answer questions about interconnected data. Network data poses unique
-            analytic challenges, and network scientists leverage many data analysis methods to
-            answer questions about the interconnected world. The purpose of the datahack is to
-            identify the superstars who have mastered those methods. Students in the fields of
-            network science, data science, and statistics at Yale are expected to have a strong
-            understanding of computational optimization and algorithm design. We want to invite them
-            (and others) to use these skills on new, real-world problems in need of real solutions.</p>
     </div>
 </div>
 
@@ -181,7 +239,7 @@
 
         <p>Our faculty are designing a screening procedure to identify participants with the
             necessary skills in network and data science, and we expect a minimum of 50
-            participants from Yale and beyond.</p>
+            participants from Yale other academic institutions.</p>
 
         <p>This event is structured around network science to focus on practical applications in
             our field. To be successful, we need problems, data sets, and sponsorship. Why
@@ -199,12 +257,12 @@
     <div class="container">
         <h2>Sponsor the Datahack</h2>
 
-        <h3>What We Need from Sponsoring Corporations</h3>
-        <ol class="dh-list">
+        <h3>Becoming a Corporate Sponsor</h3>
+        <ul class="dh-list">
             <li>Network Science datahack projects and problems: please join the discussion. What problems does your
                 organization face? Be as specific as you wish. These are project topics on which participants will be
                 judged for their creativity and utility within the field, and we are looking for projects that are of
-                interest to both you and participants.
+                interest to both you and participants. Providing datasets is not a requirement.
             </li>
             <li>Prizes and an opportunity to judge participants: for topics you have selected, we would like your
                 organization to judge the entries. You pick the prizes. The title sponsor will be on the grand prize
@@ -213,7 +271,7 @@
             <li>Support to run the event: we need your support to cover expenses including caffeine, catering, staffing
                 and venue! Also, an official ‘Network Science Datahack’ T-shirt and other small items for gift bags.
             </li>
-        </ol>
+        </ul>
     </div>
     <div class="container-fluid" id="vis-two">
     </div>
@@ -223,37 +281,108 @@
 
 <div class="jumbotron" id="resources">
     <div class="container">
-        <div id="vis-three"></div>
         <h2>Resources</h2>
 
         <p>Network Science Research at Yale includes:</p>
 
-        <h3>Technological networks</h3>
-        <ul class="dh-list">
-            <li>Designing and improving communication protocols and networks, both wired and wireless</li>
-            <li>The optimization of emerging network architectures including heterogeneous wireless networks, caching
-                networks, and software defined networks
-            </li>
-            <li>The development of algorithms for predicting the performance of networks</li>
-            <li>The design of fast algorithms for analyzing large network data sets</li>
-        </ul>
-        <h3>Social and biological networks</h3>
-        <ul class="dh-list">
-            <li>The social and mathematical rules governing how social networks form (“connection”)</li>
-            <li>The implications of how networks influence thoughts, feelings, and behaviors (“contagion”)</li>
-            <li>Social network implications for health, crime, and pro-social behavior</li>
-            <li>The modeling and analysis of intracellular processes by regulatory networks</li>
-            <li>Neural networks</li>
-        </ul>
-        <h3>Theoretical advances in network science</h3>
-        <ul class="dh-list">
-            <li>Machine learning</li>
-            <li>Deep networks</li>
-            <li>Bayesian network analysis</li>
-        </ul>
+        <div class="col-md-6">
+            <h3>Technological networks</h3>
+            <ul class="dh-list">
+                <li>Designing and improving communication protocols and networks, both wired and wireless</li>
+                <li>The optimization of emerging network architectures including heterogeneous wireless networks,
+                    caching
+                    networks, and software defined networks
+                </li>
+                <li>The development of algorithms for predicting the performance of networks</li>
+                <li>The design of fast algorithms for analyzing large network data sets</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <div id="vis-three"></div>
+        </div>
+        <div class="col-md-6">
+            <h3>Social and biological networks</h3>
+            <ul class="dh-list">
+                <li>The social and mathematical rules governing how social networks form (“connection”)</li>
+                <li>The implications of how networks influence thoughts, feelings, and behaviors (“contagion”)</li>
+                <li>Social network implications for health, crime, and pro-social behavior</li>
+                <li>The modeling and analysis of intracellular processes by regulatory networks</li>
+                <li>Neural networks</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h3>Theoretical advances in network science</h3>
+            <ul class="dh-list">
+                <li>Machine learning</li>
+                <li>Deep networks</li>
+                <li>Bayesian network analysis</li>
+            </ul>
+        </div>
     </div>
 </div>
 
+<div class="dh-interstitial"></div>
+
+<div class="jumbotron" id="faq">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="col-md-6">
+            <dl class="dh-list">
+                <dt>When will Datahack@Yale take place?</dt>
+                <dd>Datahack@Yale 2017 will be Saturday, February 18, 2017. A more detailed schedule will be released
+                    closer to the actual date of the event.
+                </dd>
+                <dt>Where will the Datahack@Yale be held?</dt>
+                <dd>17 Hillhouse Avenue, New Haven, CT 06511</dd>
+                <dt>Where does the data come from?</dt>
+                <dd>Datasets have been gathered from multiple sources and is publically available, and/or contributed by
+                    the Yale community or academic collaborators,dor has been provided by sponsoring corporations.
+                </dd>
+                <dt>Are the datasets publically downloadable or only for registered participants?</dt>
+                <dd>Data will only be made available to registered/attending participants. Some datasets used for the
+                    datahack may be publically available already.
+                </dd>
+                <dt>Who can come?</dt>
+                <dd>Anyone currently affiliated with a University is eligible to attend with confirmed registration.
+                </dd>
+                <dd>Not affiliated but still want to participate? Go ahead and register, but send us an email explaining
+                    your circumstances. Decisions will be made on a case-by-case basis.
+                </dd>
+            </dl>
+        </div>
+        <div class="col-md-6">
+            <dl class="dh-list">
+                <dt>When is the deadline to apply?</dt>
+                <dd>We will be accepting applicants in three rounds. After the third round, we will be accepting
+                    applicants off of the waitlist.
+                </dd>
+                <dd>The deadlines for each round are Saturday January 3rd, Saturday January 10th, and Saturday January
+                    17th.
+                </dd>
+                <dt>How do teams work?</dt>
+                <dd>We encourage people to work in teams of up to four. If you can't find a team beforehand, worry not -
+                    there will be time to form teams throughout registration.
+                </dd>
+                <dt>What should I bring?</dt>
+                <dd>All you'll need is a valid ID, preferably a University ID, and your laptop + charger.</dd>
+                <dt>How much does it cost to attend?</dt>
+                <dd>Attendance is 100% free, and includes food, drinks, and free swag.</dd>
+                <dt>What about travel?</dt>
+                <dd>If you’re coming from outside the New Haven area, we may be able to cover your expenses. Email us at
+                    datahack@yale.edu
+                </dd>
+                <dt>What can I win?</dt>
+                <dd>Prizes and respect.</dd>
+            </dl>
+        </div>
+        <div class="col-md-12">
+            <dl class="dh-list">
+                <dt>More questions?</dt>
+                <dd>You can email us anytime at <a href="mailto:datahack@yale.edu">datahack@yale.edu</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
 
 <div class="dh-interstitial"></div>
 
@@ -261,8 +390,18 @@
     <div class="container">
         <h2>Contact Us</h2>
 
-        <p>For more information, please contact us at <a href="mailto:datahack@yale.edu?subject=Datahack @ Yale&body=I am interested in sponsoring/participating in the Datahack event.">datahack@yale.edu</a></p>
-        <div style="float: right;"><img src="images/hosted-by.png" alt="Hosted by Yale Institute for Network Science, Yale Center for Research Computing, and Yale Department of Statistics and Data Science"></div>
+        <p>For more information, please contact us at <a
+                href="mailto:datahack@yale.edu?subject=Datahack @ Yale&body=I am interested in sponsoring/participating in the Datahack event.">datahack@yale.edu</a>
+        </p>
+        <!--div style="float: right;"><img src="images/hosted-by.png" alt="Hosted by Yale Institute for Network Science, Yale Center for Research Computing, and Yale Department of Statistics and Data Science"></div-->
+        <div class="pull-right">
+            <div class="dh-yale">Hosted by</div>
+            <div><a class="dh-yale" href="http://yins.yale.edu/">Yale Institute for Network Science</a></div>
+            <div><a class="dh-yale" href="http://research.computing.yale.edu/">Yale Center for Research Computing</a>
+            </div>
+            <div><a class="dh-yale" href="http://statistics.yale.edu/">Yale Department of Statistics and the Yale Data
+                Science Initiative</a></div>
+        </div>
     </div>
 </div>
 
@@ -276,6 +415,8 @@
 <script src="js/vis-one-opt.js"></script>
 <script src="js/vis-two-opt.js"></script>
 <script src="js/vis-three-opt.js"></script>
+<script src="js/vis-four-opt.js"></script>
+<script src="js/vis-five-opt.js"></script>
 <script src="js/vis-logo-opt.js"></script>
 <script src="js/vis-background-opt.js"></script>
 <script src="js/scripts.js"></script>

@@ -15,9 +15,21 @@ html {
 .dh-contact-div {
   margin-bottom: 0;
 }
-.dh-list li {
+.dh-list li,
+.dh-list dd {
   font-size: 21px;
   font-weight: 200;
+}
+.dh-list dt {
+  font-weight: 500;
+  margin-top: 1em;
+  font-size: 21px;
+  color: #3e6b85;
+}
+#datahack label {
+  font-size: 21px;
+  font-weight: 500;
+  color: #3e6b85;
 }
 ul > li {
   list-style-type: circle;
@@ -83,13 +95,12 @@ text {
 }
 #vis-one {
   float: left;
+  margin-right: 3em;
+  margin-bottom: 3em;
 }
 #vis-two {
   height: 150px;
   padding: 0;
-}
-#vis-three {
-  float: right;
 }
 body {
   background-color: #3e6b85;
@@ -116,10 +127,38 @@ body {
 #datahack .jumbotron {
   background-color: rgba(197, 210, 219, 0.9);
 }
-#datahack h3,
-#datahack h2 {
+#datahack h1,
+#datahack h2,
+#datahack h3 {
   color: #3e6b85;
+}
+#datahack h1 > small {
+  color: #f4921e;
 }
 li::marker {
   color: #3e6b85;
+}
+#datahack .dh-yale {
+  font-family: YaleNew, yale, TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #3e6b85;
+}
+#datahack a.dh-yale {
+  color: #3e6b85;
+}
+#datahack .btn-default {
+  color: #f4921e;
+  background-color: #3e6b85;
+  border-color: #858585;
+}
+#datahack input {
+  color: #3e6b85;
+  background-color: #c5d2db;
+  border-color: #858585;
+  font-size: 21px;
+  font-weight: 300;
+}
+#datahack .col-md-6 {
+  padding-left: 0;
 }

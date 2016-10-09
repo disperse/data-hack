@@ -35,6 +35,8 @@ $( window ).load(function() {
   visOne(); // ~65%
   visTwo(); // ~85%
   visThree(); // ~89%
+  visFour();
+  visFive();
   //visBackground(); // ~167%
 
   // Force appear events on page load
