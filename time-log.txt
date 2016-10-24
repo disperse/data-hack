@@ -12,3 +12,6 @@ Date        Hours   Activity
 10-08-2016  2       Added FAQ section and start to landing page,
                     reformatted About and Resources into two columns,
                     made Hosted By section look better and changed text
+            2       Added two new visualizations, made visualizations translucent,
+                    Finished landing page and added form for mailing list
+10-23-2016  1       Added new landing page text, temporarily disabled sign-up form until active

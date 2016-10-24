@@ -1,6 +1,7 @@
-Optimize for desktop
-Optimize for mobile
-Add hosted by section in Contact
-Upload to Site5
 http://devpost.com/hackathons or https://www.eventbrite.com/
 (When we get sponsors: add sponsors logos)
+New text for landing page
+Wire up Sign Up form with mailchimp
+Handle resizing from small to big with visualizations vis-two and vis-four
+Add share buttons
+Perhaps make text on landing page bigger?
