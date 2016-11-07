@@ -3,7 +3,7 @@ function visFive() {
   var margin = 10;
   var width = $("#vis-five").width() - margin;
   //var height = $("#vis-four").height() - margin;
-  var height = $("#sponsor-div").height();
+  var height = $("#participant-div").height();
   $("#vis-five").height(height);
   var radius = (Math.min(width,height) / 2);
   var arc = d3.svg.arc()

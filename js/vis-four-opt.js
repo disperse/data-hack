@@ -10,7 +10,7 @@ function visFour() {
     }));
 
   var width = $("#vis-four").width();
-  var height = $("#participant-div").height();
+  var height = $("#sponsor-div").height();
   $("#vis-four").height(height);
 
   var x = d3.scale.ordinal()
