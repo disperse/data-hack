@@ -16,3 +16,4 @@ Date        Hours   Activity
                     Finished landing page and added form for mailing list
 10-23-2016  1       Added new landing page text, temporarily disabled sign-up form until active
 11-06-2016  2       Added mailing list subscribe form, fixed email links, added YINS logo to top-right
+-----------------------------------------------------------------------------<--Sent 2016-11-28
