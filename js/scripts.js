@@ -41,4 +41,7 @@ $( window ).load(function() {
 
   // Force appear events on page load
   $.force_appear();
+
+  $('.dh-hidden-div').hover(function() { $('.dh-hidden-button').css('visibility', 'visible'); }, function() { $('.dh-hidden-button').css('visibility', 'hidden'); });
+  $('.dh-hidden-button').bind('click', visBackground);
 });
