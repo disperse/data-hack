@@ -8,6 +8,9 @@ html {
   font-weight: 300;
   font-size: 16px;
 }
+.dh-margin-bottom {
+  margin-bottom: 1em;
+}
 .dh-interstitial {
   height: 40%;
   background: none;
@@ -151,6 +154,12 @@ li::marker {
   color: #f4921e;
   background-color: #3e6b85;
   border-color: #858585;
+}
+#datahack .btn-large {
+  color: #f4921e;
+  background-color: #3e6b85;
+  border-color: #858585;
+  font-size: x-large;
 }
 #datahack input {
   color: #3e6b85;
