@@ -22,6 +22,15 @@ $( window ).load(function() {
     }
   });
 
+  // Scroll logos continuously
+  var x = 0;
+  var logoTimer = window.setInterval(function() {
+    x = x + 1;
+    $('.dh-sponsors').css("background-position", x + "px 0");
+  }, 20);
+
+
+
   // Extend setInterval to allow for immediate execution
   var originalSetInterval = window.setInterval;
 

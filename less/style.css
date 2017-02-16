@@ -26,6 +26,15 @@ html {
   height: 40%;
   background: none;
 }
+.dh-sponsors {
+  height: 100px;
+  background: url('../images/logo-strip.png') repeat-x;
+  padding-left: 20px;
+}
+.dh-sponsors img {
+  margin: 25px;
+  height: 50px;
+}
 .dh-contact-div {
   margin-bottom: 0;
 }
@@ -159,6 +168,9 @@ li::marker {
   color: #3e6b85;
 }
 #datahack a.dh-yale {
+  color: #3e6b85;
+}
+#datahack a.dh-blue {
   color: #3e6b85;
 }
 #datahack .btn-default {
